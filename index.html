@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        body{
+            background-color: skyblue;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+    </style>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Registration Form</h1>
+    <p>Enter your detail show</p>
+    <form>
+        <ul>
+            <li>
+                <input type="text" placeholder="your_email@gmail.com" name="mail" required>
+            </li><br>
+            <li>
+                <input type="text" placeholder="Password" name="password" required>
+            </li>
+        </ul>
+    </form>
+    <form>
+        <p><b><i>!Type a complex password with 8-20 characters.</i></b></p>
+    </form>
+    <form>
+        <ul>
+            <li>
+                <input type="text" placeholder="+20 Phone Number" name="mail" required/>
+            </li>
+        </ul>
+    </form><hr/>
+    <form>
+        <h2>Enter your professional:</h2>
+    </form>
+    <form>
+    <ul>
+        <li>
+            <input type="radio" id="student" name="fav_language" value="STUDENT">
+            <label for="student">Student</label>
+            <input type="radio" id="teacher" name="fav_language" value="TEACHER">
+            <label for="teacher" >Teacher</label>
+            <input type="radio" id="developer" name="fav_language" value="DEVELOPER">
+            <label for="developer">Developer</label>
+        </li>
+    </ul>
+</form>
+<form action="/action_page.php">
+    <label for="student">Choose the stage if you are (student)</label>
+    <select id="student" name="student">
+        <option value="fprimary">first primary</option>
+    </select>
+</form>
+<hr/>
+<form action="/action_page.php">
+    <ul>
+        <li>
+            <label for="birthday">Enter your Birthday date:</label>
+            <input type="date" id="birthday" name="birthday">
+        </li>
+    </ul>
+</form>
+<hr/>
+<form action="/action_page.php">
+    <ul>
+        <li>
+            <label for="birthday">Enter your Birth date:</label>
+            <input type="date" id="birthday" name="birthday">
+        </li>
+    </ul>
+</form>
+<hr/>
+<form>
+    <ul>
+        <li>
+            <input type="text" placeholder="Any notes" name="notes" required>
+        </li>
+    </ul>
+</form>
+<hr/>
+<form>
+    <button type="button">Submit</button>
+    <button type="button">Reset</button>
+</form>
+</body>
+</html>
